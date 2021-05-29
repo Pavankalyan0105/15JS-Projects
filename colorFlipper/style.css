@@ -1,0 +1,38 @@
+body{
+    height:90vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background:hsl(230deg 8% 15%);
+}
+
+div{
+    margin:auto;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    border-radius: 1.3rem;
+    padding:1rem;
+    background-color:black;
+}
+span{
+    color:aqua;
+}
+
+button{
+    font-style: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    width:8rem;
+    border-radius:3rem;
+    padding:1rem;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
